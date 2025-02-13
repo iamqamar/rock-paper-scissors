@@ -36,7 +36,8 @@ button {
   font-weight: 800;
   font-size: 16px;
 }
-button:hover, button:active {
+button:hover,
+button:active {
   box-shadow: #8b0606 0px 0px 25px 13px;
   font-size: 16px;
   font-family: "Space Mono", serif;
@@ -62,4 +63,30 @@ p {
   gap: 20px;
   padding-top: 80px;
   padding-bottom: 40px;
+}
+
+/* Responsive for design mobile */
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  p {
+    font-size: 10px;
+    font-weight: 400;
+    padding-bottom: 0px;
+  }
+
+  .btn {
+    padding-top: 0;
+  }
+
+  button {
+    font-weight: 600;
+    font-style: italic;
+  }
 }
